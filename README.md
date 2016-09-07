@@ -10,7 +10,7 @@ Pour démarer le serveur, tapez la commande suivante:
 
 node INF2005.js
 
-Si tout se passe bien, l'application indiquera la port sur lequel il écoute (ex: 3000)
+Si tout se passe bien, l'application indiquera le port sur lequel il écoute (ex: 3000)
 
 Par la suite, avec un navigateur, vous pourriez visiter vos pages en allant sur:
 
