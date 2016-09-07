@@ -1,3 +1,6 @@
+
+https://gitlab.com/INF2005/INF2005NODEJS.git
+
 Projet node.js ppour demarrer un serveur local et tester les fichier web statiques du cours INF2005.
 
 Par défaut, ce dossier est supposé se placer au même niveau que le dossier (ex: workspace) contenatent vos projets web
