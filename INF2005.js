@@ -11,12 +11,25 @@ var app=express();
 //remplacez la valeur de htdocs par le chemin du dossier contenant 
 //vos fichiers html
 
+app.get('/',function(reg,res){
+res.redirect('/fr');
+});
+app.post('/form',function(req,res){
+	res.send("Formulaire");
+	console.log("lo")
+});
+app.post('/login',function(req,res){
+	res.send("login");
+	console.log("lo")
+});
 //var htdocs= __dirname+'../workspace';//pour chemin absolu ATT au commutateur: 
- var htdocs='../workspace';
+var htdocs = '../workspace';//editez selon vos dossiers
+  var htdocs='../workspace/S21/demo-app/dist/demo-app';
 console.log(htdocs);
 //app.use(express.static(__dirname +'/../workspace'));
 app.use(express.static(htdocs));
 var portNumber=3000;// au besoin changez le numero de port
+//portNumber=50007
 app.listen(portNumber,function(){console.log(' le serveur fonctionne sur le port: '+portNumber)});
 console.log('serveur demarré avec success');
 //pour executer, tapez la commade suivante:
